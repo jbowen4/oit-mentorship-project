@@ -4,7 +4,6 @@ import SwitchWrapped from "./SwitchWrapped";
 import DatepickerWrapped from "./DatepickerWrapped";
 import SliderWrapped from "./SliderWrapped";
 import SelectWrapped from "./SelectWrapped";
-import LocationSelectWrapped from "./LocationSelectWrapped";
 import ValidationMessage from "./ValidationMessage";
 
 export {
@@ -13,7 +12,6 @@ export {
   SwitchWrapped,
   DatepickerWrapped,
   SliderWrapped,
-  LocationSelectWrapped,
   SelectWrapped,
-  ValidationMessage
+  ValidationMessage,
 };
