@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "setup": "lerna clean -y && lerna bootstrap",
+    "clean": "lerna run clean --stream",
     "lernaupdate": "npx lerna-update-wizard",
     "dev": "lerna run dev --parallel",
     "build:lib": "lerna run build:lib --stream",

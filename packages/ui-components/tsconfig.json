@@ -1,11 +1,11 @@
 {
-  "exclude": ["node_modules", "lib-esm", "lib", "**/*.story*", "**/*.spec*"],
+  "exclude": ["node_modules", "dist-esm", "dist", "**/*.spec*"],
   "include": [
     "src"
   ],
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "dist",
     "declaration": true
   }
 }
