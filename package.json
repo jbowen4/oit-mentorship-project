@@ -1,7 +1,20 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "setup": "lerna clean -y && lerna bootstrap",
+    "lernaupdate": "npx lerna-update-wizard",
+    "dev": "lerna run dev --parallel",
+    "build:lib": "lerna run build:lib --stream",
+    "build:web": "lerna run build:web --stream"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
   }
 }
